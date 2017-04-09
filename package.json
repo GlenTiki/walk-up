@@ -1,0 +1,28 @@
+{
+  "name": "walk-up",
+  "version": "0.0.1",
+  "description": "a module to walk upwards in a directory structure to find the first path that contains a file or folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekemkid/walk-up.git"
+  },
+  "keywords": [
+    "walk",
+    "require",
+    "fs",
+    "path"
+  ],
+  "author": "Glen Keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekemkid/walk-up/issues"
+  },
+  "homepage": "https://github.com/thekemkid/walk-up#readme",
+  "dependencies": {
+    "stack-trace": "0.0.9"
+  }
+}
