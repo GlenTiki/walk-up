@@ -1,6 +1,6 @@
 {
   "name": "walk-up",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a module to walk upwards in a directory structure to find the first path that contains a file or folder",
   "main": "index.js",
   "scripts": {
