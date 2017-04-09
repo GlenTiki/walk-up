@@ -12,8 +12,9 @@ function checkPath (currentPath, pathToFind, done) {
       fs.readdir(currentPath, (err, files) => {
         if (err) return done(err)
 
-        fs.exists(path.join(currentPath, pathToFind), (exists) => {
-          exists ? done(null, {found: true, path: currentPath}) : done(null, {found: false})
+        fs.access(path.join(currentPath, pathToFind), (err) => {
+          if (err) return done(null, {found: false})
+          done(null, {found: true, path: currentPath})
         })
       })
     } else {
